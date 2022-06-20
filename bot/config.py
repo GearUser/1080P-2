@@ -23,7 +23,7 @@ try:
     OWNER = config("OWNER")
     FFMPEG = config(
         "FFMPEG",
-        default='''ffmpeg -i "{}" -pix_fmt yuv420p10le -s 1920x1080 -tune animation -preset fast -c:v libx265 -crf 20.5 -threads 4 -map 0:v -c:a libopus -b:a 112k -map 0:a -c:s copy -map 0:s? "{}"''',
+        default='''ffmpeg -i "{}" -pix_fmt yuv420p10le -s 1920x1080 -tune animation -preset fast -c:v libx265 -crf 20 -threads 4 -map 0:v -c:a libopus -b:a 112k -map 0:a -c:s copy -map 0:s? "{}"''',
     )
     THUMB = config(
         "THUMBNAIL", default="www.google.com"
