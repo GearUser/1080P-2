@@ -85,11 +85,11 @@ async def encod(event):
         hh = kk
         hh = hh.replace("_", " ")
         vv = hh
-        vv = vv.replace("Erai raws", "[ANIMEXT]")
+        vv = vv.replace("Erai raws", "[Yugen]")
         ss = vv
-        ss = ss.replace("Erai-raws", "ANIMEXT")          
+        ss = ss.replace("Erai-raws", "Yugen")          
         jj = ss
-        jj = jj.replace("1080p", "[1080p x265] x265")
+        jj = jj.replace("Multiple Subtitles", "")
         ii = jj
         ii = ii.replace("Sly-Fox", "")
         mm = ii
