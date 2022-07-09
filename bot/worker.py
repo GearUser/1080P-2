@@ -93,7 +93,6 @@ async def encod(event):
         ii = jj
         ii = ii.replace("Sly-Fox", "")
         mm = ii
-        mm = ' '.join(mm.split()[:-2])
         rr = f"encode"
         bb = f"{mm}.mkv"                       
         out = f"{rr}/{bb}"
